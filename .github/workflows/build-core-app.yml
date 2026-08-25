@@ -3,7 +3,7 @@ name: Build Multi-Platform Core App
 on:
   workflow_dispatch:
   push:
-    branches: [main, develop]
+    branches: [main, beta]
     paths:
       - "core-app/**"
       - "src/lib/shortcuts/**"
@@ -16,7 +16,7 @@ on:
       - "core-app/run.sh"
       - ".github/workflows/build-core-app.yml"
   pull_request:
-    branches: [main, develop]
+    branches: [main, beta]
     paths:
       - "core-app/**"
       - "src/lib/shortcuts/**"

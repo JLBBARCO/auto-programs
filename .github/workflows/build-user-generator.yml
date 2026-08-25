@@ -3,7 +3,7 @@ name: Build Multi-Platform User Generator
 on:
   workflow_dispatch:
   push:
-    branches: [main, develop]
+    branches: [main, beta]
     paths:
       - "user-generator/**"
       - "src/assets/icon/**"
@@ -14,7 +14,7 @@ on:
       - "user-generator/run.sh"
       - ".github/workflows/build-user-generator.yml"
   pull_request:
-    branches: [main, develop]
+    branches: [main, beta]
     paths:
       - "user-generator/**"
       - "src/assets/icon/**"

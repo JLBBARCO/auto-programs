@@ -3,7 +3,7 @@ name: Screenshots
 on:
   workflow_dispatch:
   push:
-    branches: [main, develop]
+    branches: [main, beta]
     paths:
       - "core-app/**"
       - "src/lib/shortcuts/**"

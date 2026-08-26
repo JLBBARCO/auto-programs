@@ -7,8 +7,8 @@ from typing import cast
 
 import customtkinter as ctk
 
-from legado.src.lib import json as json_data
-from legado.src.lib import log, system, screen_other
+from src.lib import json as json_data
+from src.lib import log, system, screen_other
 
 
 GRID_PADDING_X = 20

@@ -118,8 +118,8 @@ def _show_windows_notification(title: str, message: str) -> bool:
 
 
 def finalize_notification():
-	title = 'Programs Manager User Generator'
-	message = 'Listagem de programas finalizado.'
+	title = 'Programs Manager'
+	message = 'Todas as instalações, desinstalações, atualizações e funções foram finalizadas.'
 
 	try:
 		current_system = system.name()
@@ -127,16 +127,6 @@ def finalize_notification():
 		if current_system == 'Windows':
 			if not _show_windows_notification(title, message):
 				raise RuntimeError('could not create Windows notification')
-
-		elif current_system == 'MacOS':
-			process = subprocess.run(
-				["osascript", "-e", f'display notification "{message}" with title "{title}"'],
-				capture_output=True,
-				text=True,
-				shell=False,
-			)
-			if process.returncode != 0:
-				raise RuntimeError((process.stderr or process.stdout or '').strip() or 'unknown error')
 
 		elif current_system == 'Linux':
 			process = subprocess.run(

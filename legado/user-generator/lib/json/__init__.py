@@ -1,6 +1,6 @@
 import json
 
-from legado.src.lib import log, find_folders
+from src.lib import log, find_folders
 
 
 def _has_valid_id(entry) -> bool:

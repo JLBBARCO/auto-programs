@@ -8,8 +8,8 @@ for import_path in (PROJECT_ROOT, APP_ROOT):
     if str(import_path) not in sys.path:
         sys.path.insert(0, str(import_path))
 
-from legado.src.lib.shortcuts import ensure_platform_shortcuts_best_effort
-from legado.src.lib import system, log, screen_primary, screen_secondary, updates, install, uninstall, web
+from src.lib.shortcuts import ensure_platform_shortcuts_best_effort
+from src.lib import system, log, screen_primary, screen_secondary, updates, install, uninstall, web
 
 from lib.functions import functions, notifications
 

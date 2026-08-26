@@ -1,7 +1,7 @@
 import shutil
 import subprocess
 import re
-from legado.src.lib import system
+from src.lib import system
 
 
 def _run_command(args: list[str]) -> str:

@@ -7,7 +7,7 @@ for import_path in (PROJECT_ROOT, APP_ROOT):
     if str(import_path) not in sys.path:
         sys.path.insert(0, str(import_path))
 
-from legado.src.lib import log, system, list_programs, json, notifications
+from src.lib import log, system, list_programs, json, notifications
 
 
 operational_system = system.name()

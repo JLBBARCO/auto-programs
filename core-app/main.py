@@ -1,7 +1,7 @@
 from pathlib import Path
 import customtkinter as ctk
 from lib.log import info
-from lib.screens import initial
+from lib.screens import options
 
 
 class App(ctk.CTk):
@@ -10,7 +10,6 @@ class App(ctk.CTk):
         super().__init__()
         ctk.set_appearance_mode("system")
 
-        self.geometry("800x600")
         self.resizable(False, False)
         self.title("Programs Manager")
 
@@ -18,13 +17,9 @@ class App(ctk.CTk):
         if icon_path.is_file():
             self.iconbitmap(default=str(icon_path))
 
-        self.initial_screen = initial.InitialScreen(
-            self, on_new_execution=self.show_options_screen
+        self.options_screen = options.OptionsScreen(
+            self
         )
-
-    def show_options_screen(self):
-        self.initial_screen.destroy()
-        # self.options_screen = options.OptionsScreen(self)
 
 
     info("End system")

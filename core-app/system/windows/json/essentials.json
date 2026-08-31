@@ -63,12 +63,6 @@
       "checkbox": true
     },
     {
-      "name": "BlueStacks",
-      "type": "install",
-      "id": "BlueStack.BlueStacks",
-      "checkbox": true
-    },
-    {
       "name": "Camo Studio",
       "type": "install",
       "id": "Reincubate.CamoStudio",

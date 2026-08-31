@@ -39,12 +39,6 @@
       "checkbox": true
     },
     {
-      "name": "Blender",
-      "type": "install",
-      "id": "blender",
-      "checkbox": true
-    },
-    {
       "name": "VirtualBox",
       "type": "install",
       "id": "virtualbox",

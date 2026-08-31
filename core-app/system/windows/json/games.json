@@ -6,25 +6,25 @@
       "name": "Xbox App",
       "type": "install",
       "id": "Microsoft.XboxApp",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Steam",
       "type": "install",
       "id": "Valve.Steam",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Epic Games Launcher",
       "type": "install",
       "id": "EpicGames.EpicGamesLauncher",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Google Play Games",
       "type": "install",
       "id": "Google.PlayGames",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Discord",
@@ -48,19 +48,25 @@
       "name": "GOG Galaxy",
       "type": "install",
       "id": "GOG.Galaxy",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Ubisoft Connect",
       "type": "install",
       "id": "Ubisoft.Connect",
-      "checkbox": true
+      "checkbox": false
     },
     {
       "name": "Battle.net",
       "type": "install",
       "id": "Blizzard.BattleNet",
-      "checkbox": true
+      "checkbox": false
+    },
+    {
+      "name": "BlueStacks",
+      "type": "install",
+      "id": "BlueStack.BlueStacks",
+      "checkbox": false
     }
   ]
 }

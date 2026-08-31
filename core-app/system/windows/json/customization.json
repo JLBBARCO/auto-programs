@@ -45,9 +45,27 @@
       "checkbox": true
     },
     {
-      "name": "WinToys",
+      "name": "Spacedesk Client",
       "type": "install",
-      "id": "9P8LTPGCBZXD",
+      "id": "Datronicsoft.SpacedeskDriver.Client",
+      "checkbox": true
+    },
+    {
+      "name": "Spacedesk Server",
+      "type": "install",
+      "id": "Datronicsoft.SpacedeskDriver.Server",
+      "checkbox": true
+    },
+    {
+      "name": "AnyDesk",
+      "type": "install",
+      "id": "AnyDesk.AnyDesk",
+      "checkbox": true
+    },
+    {
+      "name": "Mouse Without Borders",
+      "type": "install",
+      "id": "Microsoft.MouseWithoutBorders",
       "checkbox": true
     }
   ]

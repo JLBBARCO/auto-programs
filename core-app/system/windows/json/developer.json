@@ -3,12 +3,6 @@
   "description": "Development tools and environments for Windows.",
   "data": [
     {
-      "name": "Blender",
-      "type": "install",
-      "id": "BlenderFoundation.Blender",
-      "checkbox": true
-    },
-    {
       "name": "Docker Desktop",
       "type": "install",
       "id": "Docker.DockerDesktop",

@@ -1,54 +1,50 @@
-{
-  "name": "Games",
-  "description": "A collection of games and gaming platforms for Windows.",
-  "data": [
-    {
-      "name": "Xbox App",
-      "type": "install",
-      "id": "Microsoft.XboxApp",
-      "checkbox": false
-    },
-    {
-      "name": "Steam",
-      "type": "install",
-      "id": "Valve.Steam",
-      "checkbox": false
-    },
-    {
-      "name": "Epic Games Launcher",
-      "type": "install",
-      "id": "EpicGames.EpicGamesLauncher",
-      "checkbox": false
-    },
-    {
-      "name": "Google Play Games",
-      "type": "install",
-      "id": "Google.PlayGames",
-      "checkbox": false
-    },
-    {
-      "name": "CurseForge",
-      "type": "install",
-      "id": "Overwolf.CurseForge",
-      "checkbox": true
-    },
-    {
-      "name": "GOG Galaxy",
-      "type": "install",
-      "id": "GOG.Galaxy",
-      "checkbox": false
-    },
-    {
-      "name": "Ubisoft Connect",
-      "type": "install",
-      "id": "Ubisoft.Connect",
-      "checkbox": false
-    },
-    {
-      "name": "Battle.net",
-      "type": "install",
-      "id": "Blizzard.BattleNet",
-      "checkbox": false
-    }
-  ]
-}
+[
+  {
+    "name": "Xbox App",
+    "type": "install",
+    "id": "Microsoft.XboxApp",
+    "checkbox": false
+  },
+  {
+    "name": "Steam",
+    "type": "install",
+    "id": "Valve.Steam",
+    "checkbox": false
+  },
+  {
+    "name": "Epic Games Launcher",
+    "type": "install",
+    "id": "EpicGames.EpicGamesLauncher",
+    "checkbox": false
+  },
+  {
+    "name": "Google Play Games",
+    "type": "install",
+    "id": "Google.PlayGames",
+    "checkbox": false
+  },
+  {
+    "name": "CurseForge",
+    "type": "install",
+    "id": "Overwolf.CurseForge",
+    "checkbox": true
+  },
+  {
+    "name": "GOG Galaxy",
+    "type": "install",
+    "id": "GOG.Galaxy",
+    "checkbox": false
+  },
+  {
+    "name": "Ubisoft Connect",
+    "type": "install",
+    "id": "Ubisoft.Connect",
+    "checkbox": false
+  },
+  {
+    "name": "Battle.net",
+    "type": "install",
+    "id": "Blizzard.BattleNet",
+    "checkbox": false
+  }
+]

@@ -1,0 +1,27 @@
+[
+  { "name": "AVG", "type": "install", "id": "AVG.AVG", "checkbox": false },
+  {
+    "name": "Avast",
+    "type": "install",
+    "id": "AvastSoftware.AvastFreeAntivirus",
+    "checkbox": false
+  },
+  {
+    "name": "Bitdefender",
+    "type": "install",
+    "id": "Bitdefender.BitdefenderFreeEdition",
+    "checkbox": false
+  },
+  {
+    "name": "Kaspersky",
+    "type": "install",
+    "id": "Kaspersky.KasperskyFree",
+    "checkbox": false
+  },
+  {
+    "name": "Malwarebytes",
+    "type": "install",
+    "id": "Malwarebytes.Malwarebytes",
+    "checkbox": false
+  }
+]

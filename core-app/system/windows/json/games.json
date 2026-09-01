@@ -27,18 +27,6 @@
       "checkbox": false
     },
     {
-      "name": "Discord",
-      "type": "install",
-      "id": "Discord.Discord",
-      "checkbox": true
-    },
-    {
-      "name": "Radmin VPN",
-      "type": "install",
-      "id": "Famatech.RadminVPN",
-      "checkbox": true
-    },
-    {
       "name": "CurseForge",
       "type": "install",
       "id": "Overwolf.CurseForge",
@@ -60,12 +48,6 @@
       "name": "Battle.net",
       "type": "install",
       "id": "Blizzard.BattleNet",
-      "checkbox": false
-    },
-    {
-      "name": "BlueStacks",
-      "type": "install",
-      "id": "BlueStack.BlueStacks",
       "checkbox": false
     }
   ]
